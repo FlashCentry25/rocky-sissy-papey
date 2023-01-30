@@ -2,11 +2,11 @@ function updatescoredboard () {
     OLED.clear()
     OLED.writeStringNewLine("Player 1:" + P1)
     OLED.newLine()
-    OLED.writeStringNewLine("Player 1:" + p2)
+    OLED.writeStringNewLine("Player 2:" + p2)
     OLED.newLine()
-    OLED.writeStringNewLine("Player 1:" + Round)
+    OLED.writeStringNewLine("Round:" + Round)
     OLED.newLine()
-    OLED.writeStringNewLine("Player 1:" + Tie)
+    OLED.writeStringNewLine("Ties:" + Tie)
 }
 let Tie = 0
 let Round = 0
